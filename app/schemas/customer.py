@@ -6,4 +6,3 @@ class CustomerCreate(BaseModel):
     email: str
     company: str | None = None
     phone: str | None = None
-    user_id: int

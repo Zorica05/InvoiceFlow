@@ -13,4 +13,3 @@ class InvoiceCreate(BaseModel):
     tax: Decimal = 0
     total: Decimal = 0
     customer_id: int
-    user_id: int
